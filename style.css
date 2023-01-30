@@ -1,5 +1,93 @@
+.header, .section-one, .footer {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    color: #F9FAF8;
+}
+
+.header-links {
+    color: #E5E7EB;
+}
+
+.footer {
+    color: white;
+}
+
+#text1 {
+    color: #F9FAF8;
+}
+
+#text2, #text3 button {
+    color: #E5E7EB;
+}
+
+#text3 button {
+    background-color: #3882F6;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* gap: 20px; */
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    /* margin-bottom: 0; */
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.body {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-one-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    height: 300px;
+    flex: initial;
+    /* width: auto; */
+}
+
+#text1 {
+
+}
+
+#text2 {
+    width: 600px;
+}
+
+.section-one-right img {
+    height: 250px;
+    width: 500px;
 }
